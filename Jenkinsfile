@@ -21,6 +21,7 @@ stages {
 		}
 
 	}
+	sleep 10
 	stage('Test') {
 		steps { 
 		 sh 'mvn test'
