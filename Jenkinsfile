@@ -17,11 +17,12 @@ stages {
     stage('Compile') {
 		steps { 
 		 sh 'mvn compile'
+		sleep 10
 		
 		}
 
 	}
-	sleep 10
+	
 	stage('Test') {
 		steps { 
 		 sh 'mvn test'
