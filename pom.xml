@@ -7,10 +7,7 @@
   <version>2.5-RELEASE</version>
   <name>online-maven-project</name>
   <url>http://maven.apache.org</url>
-  <properties>
-   <maven.compiler.source>6</maven.compiler.source>
-   <maven.compiler.target>1.6</maven.compiler.target>
- </properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
